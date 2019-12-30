@@ -1,34 +1,43 @@
 
+baseurl = "https://karlmiko.netlify.com" # Hostname (and path) to the root.
+title = "Karl Michel Koerich" # Site title.
+theme = "coder-portfolio" # Set the theme.
+languagecode = "en" # The site’s language code used to generate RSS.
+defaultcontentlanguage = "en" # The default content language.
 
-baseURL = "http://www.karlmiko.com/"
-languageCode = "en-us"
-title = "Karl Michel Koerich"
+paginate = 20 # Default number of pages per page in pagination.
 
-theme = "coder-portfolio"
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
 
-DefaultContentLanguage = "en"
+disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 
-paginate = 20
+[params] # theme parameters
 
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-pygmentsUseClasses = true
+    author = "Karl Michel Koerich" # Author's name.
+    info = "WEB AND APPS ENGINEER" # Author's job title or info.
+    description = "Karl Michel's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-disqusShortname = "yourdiscussshortname"
+    footercontent = "Enter a text here." # Add footer content
+    fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
-[params]
-    author = "Karl Michel Koerich"
-    description = "Karl Michel's personal website"
-    keywords = "blog,developer,personal"
-    info = "COMPUTER ENGINEERING STUDENT"
-    avatarurl = "images/avatar.jpg"
-    footercontent = "Really don't know what to write here."
-    fixedbarContent = "Do you want to know me more private? → "
-    fixedbarContentAfter = "Thank You! Please share it if you like it → "
-
+    # Whether you want to hide copyright and credits in the footer.
     hideCredits = false
     hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
 
     # Bottom sns share
     snsShare = true
@@ -40,19 +49,12 @@ disqusShortname = "yourdiscussshortname"
     enableLineShare = true
     enableLinkedInShare = true
 
-    thumbnail = "images/tn.png"
+    thumbnail = "images/tn.png" # default sns thumbnail
 
-    # Custom CSS
-    custom_css = []
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-    # Alignment of Mobile Menu items
-    itemscentered = true
-
-    # RTL support
-    rtl = false
-
-    langseparator = "|"
-
+# Social links
 [[params.social]]
     name = "Github"
     icon = "fab fa-github"
@@ -68,3 +70,13 @@ disqusShortname = "yourdiscussshortname"
     icon = "fab fa-linkedin"
     weight = 3
     url = "https://www.linkedin.com/in/karlmiko/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "posts"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
