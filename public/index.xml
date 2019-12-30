@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yusuke Ishimi</title>
-    <link>http://www.karlmiko.com/</link>
-    <description>Recent content on Yusuke Ishimi</description>
+    <title>Karl Michel Koerich</title>
+    <link>https://karlmiko.netlify.com/</link>
+    <description>Recent content on Karl Michel Koerich</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Dec 2019 23:07:19 -0500</lastBuildDate>
     
-	<atom:link href="http://www.karlmiko.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://karlmiko.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>http://www.karlmiko.com/posts/my-first-post/</link>
+      <link>https://karlmiko.netlify.com/posts/my-first-post/</link>
       <pubDate>Sun, 29 Dec 2019 23:07:19 -0500</pubDate>
       
-      <guid>http://www.karlmiko.com/posts/my-first-post/</guid>
+      <guid>https://karlmiko.netlify.com/posts/my-first-post/</guid>
       <description></description>
     </item>
     
