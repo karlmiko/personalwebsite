@@ -22,7 +22,7 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     keywords = "blog, developer, personal" # Site keywords.
     avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-    footercontent = "A little bit of what goes on in my brain."       # Add footer content
+    footercontent = "."       # Add footer content
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = true
@@ -69,10 +69,6 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     weight = 1
     url  = "/projects/"
 [[menu.main]]
-    name = "Blog"
+    name = "Thoughts"
     weight = 2
-    url = "/blog/"
-[[menu.main]]
-    name = "About"
-    weight = 3
-    url = "/about/"
+    url = "/thoughts/"
