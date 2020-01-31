@@ -52,7 +52,7 @@ The following tables show the SNR achieved on certain reconstructed audio from S
 
 ### CLASSICAL (Original file):
 
-{{< audio wav="/audio/paperwav/891_21_original.wav" >}}
+{{< audio wav="/audio/paperwav/830_10_original.wav" >}}
 
 |    |2D CNN PREDICTION|  SNR |             AUDIO RECONSTRUCTED            |
 |----|----------|------|---------------------------------------------------|
