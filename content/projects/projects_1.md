@@ -18,7 +18,7 @@ The paper will soon be made available and a link for it will be shared.
 The following tables show the SNR achieved on certain reconstructed audio from STFT spectrograms attacked by FGSM and BIM, and without attack (refered as None in the tables). In the case of STFT spectrograms, which uses the phase informationin the reconstruction process, the reconstructed audio is more accurate  and it becomes equivalent to the original file. The 2D CNN PREDICTION column  refers to genre predicted by the 2D CNN in each scenario, while the SNR column refers the signal-to-noise ratio between the original file and the reconstructed.
 
 
-ROCK (Original file):
+### ROCK (Original file):
 
 {{< audio wav="/audio/paperwav/838_20_original.wav" >}}
 
@@ -28,7 +28,7 @@ ROCK (Original file):
 |BIM |Country          |24.58 |{{< audio wav="/audio/paperwav/838_20_bim.wav" >}} |
 |FGSM|Hiphop           |18.35 |{{< audio wav="/audio/paperwav/838_20_fgsm.wav" >}}|
 
-COUNTRY (Original file):
+### COUNTRY (Original file):
 
 {{< audio wav="/audio/paperwav/778_8_original.wav" >}}
 
@@ -39,7 +39,7 @@ COUNTRY (Original file):
 |FGSM|Pop              |18.09 |{{< audio wav="/audio/paperwav/778_8_fgsm.wav" >}} |
 
 
-BLUES (Original file):
+### BLUES (Original file):
 
 {{< audio wav="/audio/paperwav/891_21_original.wav" >}}
 
@@ -50,7 +50,7 @@ BLUES (Original file):
 |FGSM|Rock      |19.26 |{{< audio wav="/audio/paperwav/891_21_fgsm.wav" >}}|
 
 
-CLASSICAL (Original file):
+### CLASSICAL (Original file):
 
 {{< audio wav="/audio/paperwav/891_21_original.wav" >}}
 
@@ -60,7 +60,7 @@ CLASSICAL (Original file):
 |BIM |Jazz      |20.21 |{{< audio wav="/audio/paperwav/830_10_bim.wav" >}} |
 |FGSM|Jazz      |14.12 |{{< audio wav="/audio/paperwav/830_10_fgsm.wav" >}}|
 
-HIPHOP (Original file):
+### HIPHOP (Original file):
 
 {{< audio wav="/audio/paperwav/970_16_original.wav" >}}
 
@@ -71,7 +71,7 @@ HIPHOP (Original file):
 |FGSM|Pop       |12.89 |{{< audio wav="/audio/paperwav/970_16_fgsm.wav" >}}|
 
 
-POP (Original file):
+### POP (Original file):
 
 {{< audio wav="/audio/paperwav/696_20_original.wav" >}}
 
@@ -82,7 +82,7 @@ POP (Original file):
 |FGSM|Reggae    |13.78 |{{< audio wav="/audio/paperwav/696_20_fgsm.wav" >}}|
 
 
-DISCO (Original file):
+### DISCO (Original file):
 
 {{< audio wav="/audio/paperwav/930_17_original.wav" >}}
 
@@ -93,7 +93,7 @@ DISCO (Original file):
 |FGSM|Hiphop    |17.81 |{{< audio wav="/audio/paperwav/930_17_fgsm.wav" >}}|
 
 
-JAZZ (Original file):
+### JAZZ (Original file):
 
 {{< audio wav="/audio/paperwav/754_19_original.wav" >}}
 
@@ -104,7 +104,7 @@ JAZZ (Original file):
 |FGSM|Classical |16.13 |{{< audio wav="/audio/paperwav/754_19_fgsm.wav" >}}|
 
 
-REGGAE (Original file):
+### REGGAE (Original file):
 
 {{< audio wav="/audio/paperwav/941_16_original.wav" >}}
 
@@ -115,7 +115,7 @@ REGGAE (Original file):
 |FGSM|Hiphop    |12.37 |{{< audio wav="/audio/paperwav/941_16_fgsm.wav" >}}|
 
 
-METAL (Original file):
+### METAL (Original file):
 
 {{< audio wav="/audio/paperwav/667_11_original.wav" >}}
 
