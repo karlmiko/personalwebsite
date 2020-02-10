@@ -11,7 +11,7 @@ This paper shows the susceptibility of spectrogram-based audio classifiers to ad
 
 ## Paper
 
-The paper will soon be made available and a link for it will be shared.
+The complete paper can be found [here](https://arxiv.org/pdf/1910.10106.pdf)!
 
 ## Audio Samples
 
