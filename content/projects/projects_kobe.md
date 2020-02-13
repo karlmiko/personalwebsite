@@ -13,9 +13,6 @@ This paper aims to explain in a simple and direct manner the basic functionaliti
 
 The complete paper can be found [here](/pdfs/FinalProject.pdf)!
 
-/audio/paperwav/891_21_original.wav"
-
-
 
 
 
