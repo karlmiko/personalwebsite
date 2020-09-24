@@ -20,7 +20,7 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
     #info = "MCGILL UNIVERSITY" # Author's job title or info.
     description = "Karl Michel's personal website" # Site description.
     #keywords = "blog, developer, personal" # Site keywords.
-    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optional avatar in the static folder.
 
     footercontent = "."       # Add footer content
 
@@ -60,6 +60,11 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/karlmiko/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-graduation-cap"
     weight = 3
     url = "https://www.linkedin.com/in/karlmiko/"
 
