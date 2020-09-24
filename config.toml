@@ -72,7 +72,7 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 [[menu.main]]
     name = "About"
     weight = 1
-    url  = "/about/about.md"
+    url  = "/about/about"
 [[menu.main]]
     name = "Papers"
     weight = 1
